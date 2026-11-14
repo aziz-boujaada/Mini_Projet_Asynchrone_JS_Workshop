@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>GitHub Finder</h1>
+        <p>Recherchez un développeur sur GitHub</p>
+
+        <form id="searchForm">
+            <input
+                type="text"
+                id="username"
+                placeholder="Entrez un username..."
+                value="aziz-boujaada"
+                required
+            >
+
+            <button type="submit" id="searchBtn">
+                Rechercher
+            </button>
+        </form>
+
+        <p id="message"></p>
+
+        <section id="profile"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
